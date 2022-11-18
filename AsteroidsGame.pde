@@ -22,7 +22,6 @@ public void draw()
 }
 public void keyPressed()
 {
-  if(keyPressed){
     if(key == 'a' || key == 'A'){
       bob.Hyperspace();
     }
@@ -38,5 +37,4 @@ public void keyPressed()
     if(key == 's' || key == 'S'){
       bob.accelerate(-0.5);
     }
-  }
 }
