@@ -23,19 +23,19 @@ public void draw()
 public void keyPressed()
 {
   if(keyPressed){
-    if(key == 'a'){
+    if(key == 'a' || key == 'A'){
       bob.Hyperspace();
     }
-    if(key == 'r'){                 
+    if(key == 'r' || key == 'R'){                 
       bob.turn(10);
     }
-    if(key == 'q'){                 
+    if(key == 'q' || key == 'Q'){                 
       bob.turn(-10);
     }
-    if(key == 'w'){
+    if(key == 'w' || key == 'W'){
       bob.accelerate(0.5);
     }
-    if(key == 's'){
+    if(key == 's' || key == 'S'){
       bob.accelerate(-0.5);
     }
   }
